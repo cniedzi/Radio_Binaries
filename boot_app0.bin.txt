@@ -1,0 +1,5 @@
+Plik boot_app0.bin bierzemy z jednego z poniższych folderów (w zależności od tego, czy używamy Arduino IDE czy Platformio):
+
+C:\Users\xxx\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.2.0/tools/partitions/boot_app0.bin
+
+C:\Users\xxx\.platformio\packages\framework-arduinoespressif32\tools\partitions\boot_app0.bin

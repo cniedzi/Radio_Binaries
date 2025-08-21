@@ -1,0 +1,26 @@
+ESP32_S3 N16R8
+ILI9341 / ST7789
+
+Adres pliku z listami odtwarzania: https://raw.githubusercontent.com/cniedzi/Internet_Radio_Playlisty/main/_Playlisty.txt
+
+  // Konfiguracja pinów I2S
+  #define I2S_DOUT  5    
+  #define I2S_BCLK  7    
+  #define I2S_LRC   6    
+
+  // Konfiguracje przycisków
+  #define buttonEncoderR 15
+  #define S1_EncoderR 16
+  #define S2_EncoderR 17
+  #define buttonEncoderL 4
+  #define S1_EncoderL 1
+  #define S2_EncoderL 2
+
+  // tft ILI9341 / ST7789
+  #define TFT_DC 14
+  #define TFT_RST 18
+  #define TFT_CS 10
+  #define TFT_BL 21
+  #define TFT_MOSI 11 
+  #define TFT_SCLK 12 
+  #define TFT_MISO 13
