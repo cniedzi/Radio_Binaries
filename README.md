@@ -1,6 +1,7 @@
 # Radio_Binaries
 
-Radio Internetowe dla ESP32-S3 i ESP32-P4 (płytka rozwojowa Waveshare).
+Radio Internetowe dla ESP32-S3 N16R8
+Wyświetlacz SPI: ILI9341 / ST7789 (240x320)
 
 Opis funkcji:
 
