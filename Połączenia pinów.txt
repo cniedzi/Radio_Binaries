@@ -1,5 +1,5 @@
 ESP32_S3 N16R8
-ILI9341 / ST7789
+ILI9341 / ST7789 (240x320)
 
 Adres pliku z listami odtwarzania: https://raw.githubusercontent.com/cniedzi/Internet_Radio_Playlisty/main/_Playlisty.txt
 
@@ -24,3 +24,4 @@ Adres pliku z listami odtwarzania: https://raw.githubusercontent.com/cniedzi/Int
   #define TFT_MOSI 11 
   #define TFT_SCLK 12 
   #define TFT_MISO 13
+
