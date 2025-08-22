@@ -63,7 +63,7 @@ Station Name n; station_address_n
 A) LEWY enkoder
 - obrót lewo/prawo -> regulacja głośności
 - przycisk krótko -> włączenie/wyłączenie mute
-- przycisk długo -> wyświetlenie/wyłączenie wskaźnika VU na całym ekranie. Obrót prawego enkodera w trybie wskaźnika VU na całym ekranie przełącza wyświetlanie wskaźnika VU i informacji o radiu)
+- przycisk długo -> włączenie/wyłączenie trybu dodatkowych informacji; obrót prawego enkodera w tym trybie przełącza wyświetlanie: wskaźnika VU, widma, spektrogramu, informacji o radiu
 - czterokrotne naciśnięcie przycisku w ciągu 1 sekundy przełącza tryby pracy wbudowanej diody LED RGB (która miga do rytmu muzyki:) - wyłączona / stale włączona / włączona tylko, gdy aktywny jest wskaźnik VU na całym ekranie. Uwaga - dioda LED RGB musi być aktywowana poprzez zalutowanie zworki w module ESP32-S3 DevKit.
 
 B) PRAWY enkoder
@@ -111,7 +111,7 @@ Station Name n; station_address_n
 A) LEFT encoder
 - Rotate left/right → adjusts volume
 - Short press → toggles mute on/off
-- Long press → toggles full-screen VU meter on/off. (While in full-screen VU meter mode, rotating the right encoder toggles between the VU meter and radio info display.)
+- Long press → enables/disables the additional information mode; rotating the right encoder in this mode switches the display between: VU meter, spectrum, spectrogram, and radio information.
 - Pressing the button four times within 1 second switches the operating mode of the built-in RGB LED (which flashes to the music beat🙂): off / always on / on only when full-screen VU meter is active. Note: The RGB LED must be enabled by soldering a jumper on the ESP32-S3 DevKit module.
 
 B) RIGHT encoder
