@@ -1,10 +1,39 @@
 # Radio_Binaries
 
-Radio Internetowe dla ESP32-S3 N16R8
-Wyświetlacz SPI: ILI9341 / ST7789 (240x320)
+## SPRZĘT / HARDWARE
+MCU: **ESP32-S3 N16R8**<br>
+Wyświetlacz / Display SPI: **ILI9341** / **ST7789** (240x320)
+<br><br>
+## KONFIGURACJA PINÓW / PINS CONFIGURATION
 
+**I2S**
+```
+I2S_DOUT  5    
+I2S_BCLK  7    
+I2S_LRC   6    
+```
+**Encodery**
+```
+buttonEncoderR 15
+S1_EncoderR    16
+S2_EncoderR    17
+buttonEncoderL  4
+S1_EncoderL     1
+S2_EncoderL     2
+```
+**tft ILI9341 / ST7789**
+```
+TFT_DC   14
+TFT_RST  18
+TFT_CS   10
+TFT_BL   21
+TFT_MOSI 11 
+TFT_SCLK 12 
+TFT_MISO 13
+```
+<br>
 
-**URUCHAMIANIE RADIA (podłączanie do zasilania)**
+## URUCHAMIANIE RADIA (podłączanie do zasilania)
 
 A) Przyciski OBU enkoderów wciśnięte jednocześnie podczas uruchamiania radia -> uruchomienie portalu konfiguracyjnego do: a) konfiguracji sieci WiFi, b) wgranie firmware’u w postaci pliku *.bin. Należy podłączyć się do sieci „RadioInternetoweAP”, po czym wejść na stronę „192.168.4.1” i wybrać odpowiednią opcje: Configure WiFI lub Update.
 
@@ -27,8 +56,9 @@ Station Name 2; station_address_2
 Station Name n; station_address_n
 …
 ```
+<br>
 
-**NORMALNA PRACA RADIA**
+## NORMALNA PRACA RADIA
 
 A) LEWY enkoder
 - obrót lewo/prawo -> regulacja głośności
@@ -45,10 +75,13 @@ C) Wciśnięcie przycisków OBU enkoderów jednocześnie powoduje ponowne urucho
 
 D) Wejście na stronę http://adres_ip_radia -> portal konfiguracyjny
 
+<br><br>
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+<br>
 
-/******************************************************************************************/
-
-**STARTING THE RADIO (connecting to power)**
+## STARTING THE RADIO (connecting to power)
 
 A) Pressing both encoder buttons simultaneously while starting the radio → launches the configuration portal for: a) WiFi network setup, b) uploading firmware in the form of a *.bin file. Connect to the “RadioInternetoweAP” network, then go to “192.168.4.1” in your browser and choose the appropriate option: Configure WiFi or Update.
 
@@ -71,8 +104,9 @@ Station Name 2; station_address_2
 Station Name n; station_address_n
 …
 ```
+<br>
 
-**NORMAL RADIO OPERATION**
+## NORMAL RADIO OPERATION
 
 A) LEFT encoder
 - Rotate left/right → adjusts volume
