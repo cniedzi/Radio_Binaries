@@ -6,6 +6,7 @@ Wyświetlacz SPI: ILI9341 / ST7789 (240x320)
 Opis funkcji:
 
 URUCHAMIANIE RADIA (podłączanie do zasilania)
+
 A) Przyciski OBU enkoderów wciśnięte jednocześnie podczas uruchamiania radia -> uruchomienie portalu konfiguracyjnego do: a) konfiguracji sieci WiFi, b) wgranie firmware’u w postaci pliku *.bin. Należy podłączyć się do sieci „RadioInternetoweAP”, po czym wejść na stronę „192.168.4.1” i wybrać odpowiednią opcje: Configure WiFI lub Update.
 
 B) Przycisk LEWEGO enkodera wciśnięty podczas uruchamiania radia -> uruchomienie portalu konfiguracyjnego (jak w p. 1A), ale po podłączeniu się do skonfigurowanej wcześniej sieci WiFi. Do portalu można zalogować się tak jak opisano w p.1A lub po wpisaniu w przeglądarkę internetową adresu IP radia w obecnie połączonej sieci WiFi.
@@ -28,6 +29,7 @@ Station Name n; station_address_n
 
 
 NORMALNA PRACA RADIA
+
 A) LEWY enkoder
 - obrót lewo/prawo -> regulacja głośności
 - przycisk krótko -> włączenie/wyłączenie mute
@@ -48,6 +50,7 @@ D) Wejście na stronę http://adres_ip_radia -> portal konfiguracyjny
 Function Description:
 
 STARTING THE RADIO (connecting to power)
+
 A) Pressing both encoder buttons simultaneously while starting the radio → launches the configuration portal for: a) WiFi network setup, b) uploading firmware in the form of a *.bin file. Connect to the “RadioInternetoweAP” network, then go to “192.168.4.1” in your browser and choose the appropriate option: Configure WiFi or Update.
 
 B) Pressing the LEFT encoder button while starting the radio → launches the configuration portal (as in point 1A), but connects to the previously configured WiFi network. You can log in to the portal as described in point 1A or by entering the radio’s IP address in the browser within the currently connected WiFi network.
@@ -69,6 +72,7 @@ Station Name n; station_address_n
 …
 
 NORMAL RADIO OPERATION
+
 A) LEFT encoder
 - Rotate left/right → adjusts volume
 - Short press → toggles mute on/off
