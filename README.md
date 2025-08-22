@@ -21,7 +21,7 @@ buttonEncoderL  4
 S1_EncoderL     1
 S2_EncoderL     2
 ```
-**tft ILI9341 / ST7789:**
+**TFT ILI9341 lub/or ST7789:**
 ```
 TFT_DC   14
 TFT_RST  18
