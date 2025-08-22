@@ -6,13 +6,13 @@ Wyświetlacz / Display SPI: **ILI9341** / **ST7789** (240x320)
 <br><br>
 ## KONFIGURACJA PINÓW / PINS CONFIGURATION
 
-**I2S**
+**I2S:**
 ```
 I2S_DOUT  5    
 I2S_BCLK  7    
 I2S_LRC   6    
 ```
-**Encodery**
+**Enkodery/Encoders:**
 ```
 buttonEncoderR 15
 S1_EncoderR    16
@@ -21,7 +21,7 @@ buttonEncoderL  4
 S1_EncoderL     1
 S2_EncoderL     2
 ```
-**tft ILI9341 / ST7789**
+**tft ILI9341 / ST7789:**
 ```
 TFT_DC   14
 TFT_RST  18
