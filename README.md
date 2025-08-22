@@ -3,9 +3,8 @@
 Radio Internetowe dla ESP32-S3 N16R8
 Wyświetlacz SPI: ILI9341 / ST7789 (240x320)
 
-Opis funkcji:
 
-URUCHAMIANIE RADIA (podłączanie do zasilania)
+**URUCHAMIANIE RADIA (podłączanie do zasilania)**
 
 A) Przyciski OBU enkoderów wciśnięte jednocześnie podczas uruchamiania radia -> uruchomienie portalu konfiguracyjnego do: a) konfiguracji sieci WiFi, b) wgranie firmware’u w postaci pliku *.bin. Należy podłączyć się do sieci „RadioInternetoweAP”, po czym wejść na stronę „192.168.4.1” i wybrać odpowiednią opcje: Configure WiFI lub Update.
 
@@ -14,21 +13,22 @@ B) Przycisk LEWEGO enkodera wciśnięty podczas uruchamiania radia -> uruchomien
 C) Przycisk PRAWEGO enkodera wciśnięty podczas uruchamiania radia -> uruchomienie portalu wczytywania list odtwarzania do radia po podłączeniu się do skonfigurowanej wcześniej sieci WiFi. Do portalu można zalogować się po wpisaniu w przeglądarkę internetową adresu IP radia w obecnie połączonej sieci WiFi. Do radia można wczytać listy odtwarzania z pliku tekstowego, który musi być dostępny z internetu, np. mój plik: https://raw.githubusercontent.com/cniedzi/Internet_Radio_Playlisty/main/_Playlisty.txt (nie gwarantuję dostępności tego pliku w nieskończoność 🙂 ).
 
 Format pliku konfiguracyjnego z listami odtwarzania:
-
+```
 Playlist=Name of Playlist 1
 Station Name 1; station_address_1
 Station Name 2; station_address_2
 …
 Station Name n; station_address_n
+
 Playlist=Name of Playlist 2
 Station Name 1; station_address_1
 Station Name 2; station_address_2
 …
 Station Name n; station_address_n
 …
+```
 
-
-NORMALNA PRACA RADIA
+**NORMALNA PRACA RADIA**
 
 A) LEWY enkoder
 - obrót lewo/prawo -> regulacja głośności
@@ -45,11 +45,10 @@ C) Wciśnięcie przycisków OBU enkoderów jednocześnie powoduje ponowne urucho
 
 D) Wejście na stronę http://adres_ip_radia -> portal konfiguracyjny
 
+
 /******************************************************************************************/
 
-Function Description:
-
-STARTING THE RADIO (connecting to power)
+**STARTING THE RADIO (connecting to power)**
 
 A) Pressing both encoder buttons simultaneously while starting the radio → launches the configuration portal for: a) WiFi network setup, b) uploading firmware in the form of a *.bin file. Connect to the “RadioInternetoweAP” network, then go to “192.168.4.1” in your browser and choose the appropriate option: Configure WiFi or Update.
 
@@ -58,20 +57,22 @@ B) Pressing the LEFT encoder button while starting the radio → launches the co
 C) Pressing the RIGHT encoder button while starting the radio → launches the playlist upload portal after connecting to the previously configured WiFi network. You can log in to the portal by entering the radio’s IP address in the browser within the currently connected WiFi network. Playlists can be uploaded from a text file that must be accessible via the internet, e.g., my file: https://raw.githubusercontent.com/cniedzi/Internet_Radio_Playlisty/main/_Playlisty.txt (note: I do not guarantee permanent availability of this file 🙂).
 
 Playlist configuration file format:
-
+```
 Playlist=Name of Playlist 1
 Station Name 1; station_address_1
 Station Name 2; station_address_2
 …
 Station Name n; station_address_n
+
 Playlist=Name of Playlist 2
 Station Name 1; station_address_1
 Station Name 2; station_address_2
 …
 Station Name n; station_address_n
 …
+```
 
-NORMAL RADIO OPERATION
+**NORMAL RADIO OPERATION**
 
 A) LEFT encoder
 - Rotate left/right → adjusts volume
