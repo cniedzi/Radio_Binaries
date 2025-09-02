@@ -63,7 +63,14 @@ Station Name n; station_address_n
 **A) LEWY enkoder**
 - obrót lewo/prawo -> regulacja głośności
 - przycisk krótko -> włączenie/wyłączenie mute
-- przycisk długo -> włączenie/wyłączenie trybu dodatkowych informacji; obrót prawego enkodera w tym trybie przełącza wyświetlanie: wskaźnika VU, 7-segmentowego analizatora widma, pełnego widma, spektrogramu, ustawień parametrów dźwięku, ustawień trybów wyświetlania wskaźnika poziomu i trybu Led RGB (dla ESP32-S3) oraz informacji o radiu
+- przycisk długo -> włączenie/wyłączenie trybu dodatkowych informacji; obrót prawego enkodera w tym trybie przełącza wyświetlanie:
+  a) wskaźnika VU,
+  b) 7-segmentowego analizatora widma,
+  c) pełnego widma,
+  d) spektrogramu,
+  e) ustawień parametrów dźwięku,
+  f) ustawień trybów wyświetlania wskaźnika poziomu i trybu Led RGB (dla ESP32-S3)
+  g) informacji o radiu
 - czterokrotne naciśnięcie przycisku w ciągu 1 sekundy przełącza tryby pracy wbudowanej diody LED RGB (która miga w rytm muzyki :smile:): wyłączona / stale włączona / włączona tylko w trybie dodatkowych informacji. <ins>Uwaga:</ins> dioda LED RGB musi być aktywowana poprzez zalutowanie zworki w module ESP32-S3 DevKit.
 
 **B) PRAWY enkoder**
