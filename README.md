@@ -61,9 +61,9 @@ Station Name n; station_address_n
 ## NORMALNA PRACA RADIA
 
 **A) LEWY enkoder**
-- obrót lewo/prawo -> regulacja głośności
-- przycisk krótko -> włączenie/wyłączenie mute
-- przycisk długo -> włączenie/wyłączenie trybu dodatkowych informacji; obrót prawego enkodera w tym trybie przełącza wyświetlanie:<br>
+- Obrót lewo/prawo -> regulacja głośności
+- Przycisk krótko -> włączenie/wyłączenie mute
+- Przycisk długo -> włączenie/wyłączenie trybu dodatkowych informacji; obrót prawego enkodera w tym trybie przełącza wyświetlanie:<br>
   a) wskaźnika VU,<br>
   b) 7-segmentowego analizatora widma,<br>
   c) pełnego widma,<br>
@@ -72,12 +72,12 @@ Station Name n; station_address_n
   f) ustawień trybów wyświetlania wskaźnika poziomu i trybu Led RGB (dla ESP32-S3)<br>
   g) informacji o radiu<br>
   Długie wciśnięcie przycisku lewego enkodera podczas wyświetlania: wskaźnika VU, 7-segmentowego analizatora widma, pełnego widma lub spektrogramu powoduje zapisanie do pamięci domyślnego ekranu, który będzie wyświetlony po wejściu do trybu dodatkowych informacji pod warunkiem, że wyciszenie dźwięku "Mute" nie jest aktywne. Jeżeli "Mute" jest aktywne, defaultowym trybem jest ekran ustawień parametrów dźwięku.
-- czterokrotne naciśnięcie przycisku w ciągu 1 sekundy przełącza tryby pracy wbudowanej diody LED RGB (która miga w rytm muzyki :smile:): wyłączona / stale włączona / włączona tylko w trybie dodatkowych informacji. <ins>Uwaga:</ins> dioda LED RGB musi być aktywowana poprzez zalutowanie zworki w module ESP32-S3 DevKit.
+- Czterokrotne naciśnięcie przycisku w ciągu 1 sekundy przełącza tryby pracy wbudowanej diody LED RGB (która miga w rytm muzyki :smile:): wyłączona / stale włączona / włączona tylko w trybie dodatkowych informacji. <ins>Uwaga:</ins> dioda LED RGB musi być aktywowana poprzez zalutowanie zworki w module ESP32-S3 DevKit.
 
 **B) PRAWY enkoder**
-- obrót lewo/prawo -> wybór stacji z aktualnej listy odtwarzania
-- przycisk krótko -> wyświetlenie listy stacji z aktualnej listy odtwarzania. Obrót prawego enkodera w tym trybie wybiera stację; krótkie naciśnięcie dekodera aktywuje wybraną stację z listy
-- przycisk długo -> przełączenie trybu wyboru stacji / listy odtwarzania. W trybie wyboru listy odtwarzania, obrót prawego enkodera powoduje wybór listy odtwarzania i wczytanie stacji z tej listy. Po wybraniu listy odtwarzania, po 2 sekundach, radio automatycznie powraca do trybu wyboru stacji z listy odtwarzania.
+- Obrót lewo/prawo -> wybór stacji z aktualnej listy odtwarzania
+- Przycisk krótko -> wyświetlenie listy stacji z aktualnej listy odtwarzania. Obrót prawego enkodera w tym trybie wybiera stację; krótkie naciśnięcie dekodera aktywuje wybraną stację z listy
+- Przycisk długo -> przełączenie trybu wyboru stacji / listy odtwarzania. W trybie wyboru listy odtwarzania, obrót prawego enkodera powoduje wybór listy odtwarzania i wczytanie stacji z tej listy. Po wybraniu listy odtwarzania, po 2 sekundach, radio automatycznie powraca do trybu wyboru stacji z listy odtwarzania.
 
 **C) Wciśnięcie przycisków OBU enkoderów** jednocześnie powoduje ponowne uruchomienie radia.
 
