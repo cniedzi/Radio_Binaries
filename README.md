@@ -71,6 +71,7 @@ Station Name n; station_address_n
   e) ustawień parametrów dźwięku,<br>
   f) ustawień trybów wyświetlania wskaźnika poziomu i trybu Led RGB (dla ESP32-S3)<br>
   g) informacji o radiu<br>
+  Długie wciśnięcie przycisku lewego enkodera podczas wyświetlania: wskaźnika VU, 7-segmentowego analizatora widma, pełnego widma lub spektrogramu powoduje zapisanie do pamięci domyślnego ekranu, który będzie wyświetlony po wejściu do trybu dodatkowych informacji pod warunkiem, że wyciszenie dźwięku "Mute" nie jest aktywne. Jeżeli "Mute" jest aktywne, defaultowym trybem jest ekran ustawień parametrów dźwięku.
 - czterokrotne naciśnięcie przycisku w ciągu 1 sekundy przełącza tryby pracy wbudowanej diody LED RGB (która miga w rytm muzyki :smile:): wyłączona / stale włączona / włączona tylko w trybie dodatkowych informacji. <ins>Uwaga:</ins> dioda LED RGB musi być aktywowana poprzez zalutowanie zworki w module ESP32-S3 DevKit.
 
 **B) PRAWY enkoder**
