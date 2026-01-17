@@ -35,7 +35,9 @@ TFT_MISO 13
 
 ## URUCHAMIANIE RADIA (podłączanie do zasilania)
 
-**A) Przyciski OBU enkoderów** wciśnięte jednocześnie podczas uruchamiania radia -> uruchomienie portalu konfiguracyjnego do: a) konfiguracji sieci WiFi, b) wgranie firmware’u w postaci pliku *.bin. Należy podłączyć się do sieci „RadioInternetoweAP”, po czym wejść na stronę „192.168.4.1” i wybrać odpowiednią opcje: Configure WiFI lub Update.
+**A) Przyciski OBU enkoderów** wciśnięte jednocześnie podczas uruchamiania radia.
+- Następnie, jeżeli w ciągu 3 sekund naciśnięty zostanie przycisk prawego enkodera, będzie można wybrać startowe: listę odtwarzania i stację (np. w przypadku, gdy ostatnio wybrana stacja nie działa - po restarcie, w trakcie normalnego uruchomienia, radio zawsze wybiera ostatnią stację)
+- Jeżeli w ciągu 3 sekund nie zostanie naciśnięty przycisk prawego enkodera, nastąpi uruchomienie portalu konfiguracyjnego pozwalającego na: a) konfigurację sieci WiFi, b) wgranie firmware’u w postaci pliku *.bin. Należy podłączyć się do sieci „RadioInternetoweAP”, po czym wejść na stronę „192.168.4.1” i wybrać odpowiednią opcje: Configure WiFI lub Update.
 
 **B) Przycisk LEWEGO enkodera** wciśnięty podczas uruchamiania radia -> uruchomienie portalu konfiguracyjnego (jak w p. 1A), ale po podłączeniu się do skonfigurowanej wcześniej sieci WiFi. Do portalu można zalogować się tak jak opisano w p.1A lub po wpisaniu w przeglądarkę internetową adresu IP radia w obecnie połączonej sieci WiFi.
 
@@ -65,7 +67,9 @@ Station Name n; station_address_n
 - Przycisk krótko -> włączenie/wyłączenie mute
 - Przycisk długo -> włączenie/wyłączenie trybu dodatkowych informacji; obrót prawego enkodera w tym trybie przełącza wyświetlanie:<br>
   a) wskaźnika VU,<br>
-  b) 7-segmentowego analizatora widma,<br>
+  b) analogowych wskaźników VU,<br>
+  c) 32-segmentowego analizatora widma ze wskaźnikiem VU,<br>
+  d) 16-segmentowego analizatora widma,<br>
   c) pełnego widma,<br>
   d) spektrogramu,<br>
   e) ustawień parametrów dźwięku,<br>
