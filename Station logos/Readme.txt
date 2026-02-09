@@ -1,3 +1,4 @@
+// UWAGA - wymagane jest posiadanie odpowiedniej ilości wolnej pamięci Flash. W przypadku ESP32-S3 N16R8 nie powinno byćz tym problemu
 // 1. Pliki: Loga_Stacje.h, Loga_1.h, Loga_2.h kopiujemy do katalogu zawierającym projekt.
 // 2. W głównym pliku projektu (Projekt.ino lub main.cpp) dodajemy poniższe linie w odpowiednich miejscach.
 
