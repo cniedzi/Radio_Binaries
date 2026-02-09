@@ -1,4 +1,5 @@
-// W głównym pliku projektu (Projekt.ino lub main.cpp) dodajemy poniższe linie.
+// 1. Pliki: Loga_Stacje.h, Loga_1.h, Loga_2.h kopiujemy do katalogu zawierającym projekt.
+// 2. W głównym pliku projektu (Projekt.ino lub main.cpp) dodajemy poniższe linie w odpowiednich miejscach.
 
 #include "Loga_Stacje.h"
 
